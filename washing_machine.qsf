@@ -56,3 +56,16 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name VERILOG_FILE db/washing_machine.v
 set_global_assignment -name MISC_FILE "C:/Users/aluno/Desktop/WashingMachine/washing_machine.dpf"
+set_global_assignment -name MISC_FILE "C:/Users/aluno/Desktop/Projeto-CL2-master/washing_machine.dpf"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_N25 -to SW[0]
+set_location_assignment PIN_AE22 -to LEDG[0]
+set_location_assignment PIN_AF22 -to LEDG[1]
+set_location_assignment PIN_W19 -to LEDG[2]
+set_location_assignment PIN_V18 -to LEDG[3]
+set_location_assignment PIN_N26 -to SW[1]
+set_location_assignment PIN_P25 -to SW[2]
+set_location_assignment PIN_AE14 -to SW[3]
+set_location_assignment PIN_AF14 -to SW[4]
+set_location_assignment PIN_AD13 -to SW[5]
+set_location_assignment PIN_AC13 -to SW[6]
