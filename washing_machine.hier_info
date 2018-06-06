@@ -1,0 +1,16 @@
+|washing_machine
+bomba_agua <= <GND>
+modo_agitar <= <GND>
+modo_centrifugar <= <GND>
+modo_girar <= <GND>
+CLOCK_50 => ~NO_FANOUT~
+SW => ~NO_FANOUT~
+LEDG[0] <= <GND>
+LEDG[1] <= <GND>
+LEDG[2] <= <GND>
+LEDG[3] <= <GND>
+KEY[0] => ~NO_FANOUT~
+KEY[1] => ~NO_FANOUT~
+KEY[2] => ~NO_FANOUT~
+
+
